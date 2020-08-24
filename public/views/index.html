@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Juery CDN and Bootstrap CDN-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/jquery.jqgrid.min.js"></script>	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-multiselect-widget/2.0.2/jquery.multiselect.js"></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/css/ui.jqgrid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-multiselect-widget/2.0.2/jquery.multiselect.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<!--My JavaScripts Files-->
+	<script  type="text/javascript" src="javascript/Home_Script.js"></script>	
+	<!--My CSS Files <--></-->
+	<link rel="stylesheet" href="css/Home_Style.css">
+	<!-- Alertify CDN -->
+	<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/themes/default.min.css"/>
+	<!-- Date Range Picker--->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+	<title>Proxy | Feed</title>
+	<link rel="shortcut icon" type="image/png" href="http://icons.iconarchive.com/icons/hadezign/hobbies/128/Movies-icon.png"/>
+</head>	
+
+<body>
+	<nav>
+	    <ul class="menu-area">
+	    	<li id="Web_Feed_Home" class="pull-left" title="Web Feed Data from Providers"><a style="color:#ffffff;cursor: pointer;"><h6>Proxies</h6></a></li>
+	     	<li id="Providers" title="Web Feed URL Provider Data"><a style="color:#ffffff;cursor: pointer;">Provider</a></li>
+	    </ul>
+	</nav>
+	<br/><br/>
+
+	<div class="container">
+		<div id="proxy_feed">
+			<div id="Web_Feed_View">
+				<div class="row">
+					<div class="col-md-6">
+						<h6 id="Label_1">Refresh Proxies : </h6>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="refresh_info">
+				<div class="col-md-3">
+					<button type="button" class="btn btn-info" id="refresh_data" name="refresh_data" title="Refresh Database with new Data from the Web Feed"><i class="fa fa-refresh pull-left" aria-hidden="true"></i> Refresh</button>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<p class="text-justify">Last Refreshed at : <b id="last_refresh"></b></p>
+				</div>
+			</div>
+
+			
+			<div class="row">
+				<div class="col-md-12 text-center" id="Home_Jqgrid">
+					<div id="Loader_Logo" style="display:none;z-index:-999;">
+			         	<div class="lds-hourglass"></div>
+			        </div>
+					<div id="Loader_Logo" style="display:none;z-index:-999;">
+						<div class="lds-hourglass"></div>
+					</div>
+					<div id="home_div" class="jqGrid">
+						<table id="home_grid"></table>
+						<div id="home_pager"></div>
+					</div>
+					<div style="z-index:-1;">
+						<p id="No_Result" style="display:none">No Proxy Data Found!! <br/> Please Try Clicking Refresh button</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="Provider_View">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<input type="text" class="form-control" id="New_Provider_URL" placeholder="Enter Proxy Provider Name" autocomplete="off">
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-3">
+							<button id="New_URL_Click" type="button" class="btn btn-success">Add URL</button>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			<br/><br/>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 text-center" id="Home_Jqgrid">
+					<div id="Loader_Logo1" style="display:none;z-index:-999;">
+		         		<div class="lds-hourglass"></div>
+		         	</div>
+					<div id="Provider_Div" class="jqGrid">
+						<table id="Provider_Grid"></table>
+						<div id="Provider_Pager"></div>
+					</div>
+					<div style="z-index:-1;">
+		            	<p id="Provider_Message" style="display:none">No Providers Found, Please Add Providers</p>
+		         	</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

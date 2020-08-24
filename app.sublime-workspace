@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ro",
+				"row"
+			],
+			[
+				"r",
+				"rows"
+			],
+			[
+				"ce",
+				"cells"
+			],
+			[
+				"ch",
+				"change"
+			],
+			[
+				"ta",
+				"tableRowa"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"pa",
+				"Pawn"
+			],
+			[
+				"R",
+				"RookMove"
+			],
+			[
+				"mo",
+				"Move"
+			],
+			[
+				"m",
+				"Move"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"Ce",
+				"CEllCount"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-collapse\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"top",
+				"margin-top\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"mt",
+				"mt-3"
+			],
+			[
+				"tex",
+				"text-align-last\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"md",
+				"md-form"
+			],
+			[
+				"ca",
+				"card"
+			],
+			[
+				"bo",
+				"bolder\tfont-weight"
+			],
+			[
+				"conta",
+				"Contact"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"backgroud-c",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"c",
+				"carousel"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"b",
+				"bottom\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"ove",
+				"overflow\tproperty"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"Gri",
+				"grid"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"bagro",
+				"background\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"gr",
+				"grid-item"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"we",
+				"WebLearning"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"e",
+				"explore"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"gly",
+				"glyphicon-user"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"na",
+				"navbar-nav"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"te",
+				"transform-style\tproperty"
+			],
+			[
+				"fon",
+				"font-variant-caps\tproperty"
+			],
+			[
+				"text-",
+				"text-transform\tproperty"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"ali",
+				"text-align\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"borde",
+				"border-right\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"cas",
+				"font-variant-caps\tproperty"
+			],
+			[
+				"le",
+				"margin-left\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"mi",
+				"minlength\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"th",
+				"th\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/vidyadharmk/Desktop/DatabaseAndWeb/public/views/javascript/Home_Script.js",
+		"/Users/vidyadharmk/Desktop/DatabaseAndWeb/core/server.js",
+		"/Users/vidyadharmk/Downloads/Sample Json File with 500 Records.json",
+		"/Users/vidyadharmk/Desktop/solr-8.5.2/server/solr-webapp/webapp/banana-release/src/index.html",
+		"/Users/vidyadharmk/Desktop/solr-8.5.2/server/solr-webapp/webapp/banana-release/src/app/app.js",
+		"/Users/vidyadharmk/Desktop/solr-8.5.2/server/solr-webapp/webapp/banana-release/src/app/dashboards/default.json",
+		"/Users/vidyadharmk/Desktop/solr-8.5.2/server/solr-webapp/webapp/banana-release/src/config.js",
+		"/Users/vidyadharmk/Downloads/Web Engineering 2018-19/Summer Semester 2019/Database and Web Tech/Data And Web Tech/core/server.js",
+		"/Users/vidyadharmk/Downloads/Web Engineering 2018-19/Summer Semester 2019/Database and Web Tech/Data And Web Tech/public/views/javascript/Home_Script.js",
+		"/Users/vidyadharmk/Downloads/Web Engineering 2018-19/Summer Semester 2019/Database and Web Tech/Data And Web Tech/core/db.js",
+		"/Users/vidyadharmk/Downloads/Web Engineering 2018-19/Summer Semester 2019/Database and Web Tech/Data And Web Tech/app.js",
+		"/Users/vidyadharmk/Desktop/2019ddsexam.html",
+		"/Users/vidyadharmk/Desktop/Myfirst.js",
+		"/Users/vidyadharmk/Downloads/task/index.html",
+		"/Users/vidyadharmk/Downloads/task/css/CessIndex.html",
+		"/Users/vidyadharmk/Downloads/Default (OSX).sublime-keymap",
+		"/Users/vidyadharmk/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/vidyadharmk/Downloads/task/css/chess.js",
+		"/Users/vidyadharmk/Downloads/task/css/main.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/ContactUs.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/carousel.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/Learn.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/bootstrap.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/LearnGridboot.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/blog.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/BlogPost.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/Photos.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/Photogrid.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/code.jquery.com:jquery-3.4.1.js",
+		"/Users/vidyadharmk/Desktop/WebLearning/TICTACTOE.css",
+		"/Users/vidyadharmk/Desktop/WebLearning/tictactoe.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/selectorsExercise.html",
+		"/Users/vidyadharmk/Desktop/WebLearning/selectors.css",
+		"/firstpage.html",
+		"/Users/vidyadharmk/Desktop/firstputhonscript.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
